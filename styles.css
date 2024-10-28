@@ -1,0 +1,228 @@
+.azeret-mono-custom {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Change as needed */
+    font-style: normal;
+}
+
+header{background-image:url(./assets/Hero-bg.png);
+
+}
+body{
+    margin: 0;
+}
+nav {
+    background-color: aliceblue;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    
+}
+
+.nav-title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.btn-primary {
+    padding: 10px 17px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    opacity: 80;
+    stroke: #0D1321;
+
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 45px 220px;
+    gap: 5px;
+}
+.banner-title{
+    font-size: 36px;
+    font-weight:800;
+    /* line-height: px; */
+}
+.banner-pg{
+    font-size: 16px;
+    font-weight: normal;
+    /* line-height: 26px; */
+    opacity: 0.7;
+    
+}
+.banner-btn{
+    padding: 10px 17px;
+    background-color:#0D1321;
+    border-radius: 8px;
+    opacity: 80;
+    stroke: #0D1321;
+    color: wheat;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.background{
+    background-color: aliceblue;
+}
+.about{
+    text-align: center;
+    padding: 10px;
+    margin: 70px 220px;
+    border: 70px;
+}
+.task-container{
+    display: flex;
+    gap:100px;
+    padding: 20px;
+    background: linear-gradient(to right, white, rgb(211, 211, 211));
+
+}
+.task-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+
+}
+
+.task-info h4{
+    font-size: 25px;
+    text-align: start;
+    opacity: 0.7;
+}
+
+.task-info p{
+    text-align: start;
+    text-wrap: wrap;
+}
+.task-container img{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 200px;
+    
+}
+.all-task{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.video{
+    display: flex;
+    padding: px;
+margin: 0px 220px;
+text-align: center;
+}
+.video-dive{
+    gap: 100px;
+}
+.target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 220px;
+}
+.target-text{
+    margin: 10px 200px;
+    gap: 10px;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.html{
+    background-color: rgba(255,76,30,0.05);
+     
+}
+.css{
+    background-color: #0b39960D;
+}
+.js{
+    background-color: #FFDF000D;
+}
+.learn{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    
+}
+.nexst-about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 250px;
+    gap: 10px;
+    
+}
+.all-cards{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+}
+.next-card{
+    display: flex;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    gap: 10px;
+    margin: 0px 30px;
+}
+.Support{
+    background-image: url("./assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: repeat; */
+    margin: 30px 30px;
+    border-radius: 10px;
+}
+.Support-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 100px 20px;
+
+}
+.Support-titel{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 250px;
+}
+.Support-btn{
+    display: flex;
+    flex-direction: ;
+    gap: 20px;
+}
+.Support-btn input{
+    padding: 20px 200px;
+    border-radius: 10px;
+    text-align: left;
+}
+.Support-btn button{
+    padding: 20px 60px;
+    border-radius: 10px;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+}
